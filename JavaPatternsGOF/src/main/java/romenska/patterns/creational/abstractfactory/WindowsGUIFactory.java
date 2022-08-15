@@ -6,6 +6,10 @@ public WindowsGUIFactory() {
 }
 
 @Override
+	public String toString() {
+		return "WindowsGUIFactory";
+	}
+@Override
 public Button createButton() {
 	return new WindowsButton();
 }

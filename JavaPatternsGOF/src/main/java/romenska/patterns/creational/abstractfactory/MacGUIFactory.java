@@ -6,6 +6,11 @@ public class MacGUIFactory implements GUIFactory {
 		System.out.println("==== MacGUIFactory is created.");
 	}
 	@Override
+	public String toString() {
+		return "MacGUIFactory";
+	}
+	
+	@Override
 	public Button createButton() {
 		return new MacButton();
 	}
