@@ -1,4 +1,4 @@
-package romenska.patterns.structura.decorator;
+package romenska.patterns.structura.decorator.printer;
 
 public interface Printer  {
 
