@@ -13,6 +13,7 @@ public class FormTest {
 	@ValueSource(strings = {"Windows","Mac"})
 	public void testWindowsOrderForm(String os) {
 		OrderForm form = buildForm(os);
+
 		assertEquals(os+"Button", form.getButtonOrder().toString() );
 		assertEquals(os+"TextEdit", form.getTextEditOrder().toString() );
 		assertEquals(os+"Select", form.getSelectOrder().toString() );
