@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 public class PrintHex implements Printer{
 
 	private Printer inner;
+	
 	public PrintHex(Printer inner) {
 		this.inner=inner;
 	}
